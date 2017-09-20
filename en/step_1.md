@@ -1,19 +1,7 @@
-## Introduction
+Python’s `randint` function generates numbers that appear random, but they aren't really! If you add a starting number, or seed and if this seed is unchanged each time the code is run, the same sequence of numbers in the same order will always be generated.
 
-Add project description here. What will learners be making?
+Try it yourself using the example below. Run the program several times and look at the random numbers that are generated each time.
 
-### What you will make
+<iframe src="https://trinket.io/embed/python/fd410928c2" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-Add something here to showcase here, for example:
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
-
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
-
-### What you will learn
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+If you don't specify a seed, Python will pick its own seed each time you call the `randint` function, making the numbers appear to be more random.
