@@ -1,4 +1,4 @@
-title: Random seed in Python
+title: Random seeds in Python
 hero_image: images/banner.png
 description: Learn how and why you might use a random seed in Python
 original_url:
@@ -12,4 +12,4 @@ interests: ""
 technologies: "python"
 site_areas:
 steps:
-  - title: Introduction
+  - title: Random seeds
